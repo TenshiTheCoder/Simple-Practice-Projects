@@ -1,0 +1,22 @@
+.card-container {
+background-color: black;
+max-width: 310px;
+border-radius: 15px;
+text-align: center;
+box-shadow: 4px 4px 10px -1px green;
+}
+
+.kermit-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.kermit-title {
+  color: white;
+} 
+
+.kermit-description {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 5px;
+}

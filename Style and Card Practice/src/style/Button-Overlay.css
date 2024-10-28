@@ -1,0 +1,46 @@
+.button-overlay-container {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 50px;
+  right: 700px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease;
+  box-shadow: 0px 0px 10px -1px black;
+  max-width: 800px;
+  padding: 10px;
+  gap: 8px;
+}
+
+.kermit-wizard {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Changed to relative */
+  width: 200px;
+  height: auto; /* Allow height to adjust based on content */
+  padding: 20px;
+  background-color: #fff; /* Just for visibility, adjust as needed */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add some shadow for clarity */
+  border-radius: 8px;
+}
+
+.kermit-wizard-title {
+  font-size: 18px;
+  margin-bottom: 10px; /* Space between title and description */
+}
+
+.kermit-wizard-description {
+  font-size: 14px;
+  margin-bottom: 20px; /* Space between description and magic */
+}
+
+.wizard-magic {
+  display: none;
+  font-size: 14px;
+  color: #4caf50; /* Just an example color */
+}
+
+.kermit-wizard:hover .wizard-magic {
+  display: block; /* Shows the "magic" on hover */
+}

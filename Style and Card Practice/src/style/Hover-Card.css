@@ -1,0 +1,33 @@
+.card-container2 {
+  position: absolute;
+  top: 100px;
+  right: 1250px;
+  background-color: black;
+  max-width: 310px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 4px 4px 10px -1px green;
+  transition: all 0.35s ease;
+  display: inline-block;
+  margin-left: 30px; 
+  }
+  
+  .kermit-image2 {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .kermit-title2 {
+    color: white;
+  } 
+  
+  .kermit-description2 {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+
+  .card-container2:hover {
+    transform: scale(1.1);
+    background-color: green;
+  }

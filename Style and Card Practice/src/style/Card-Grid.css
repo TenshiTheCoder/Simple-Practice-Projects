@@ -1,0 +1,43 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  right: 1000px;
+  padding: 0;
+  margin: 0;
+}
+
+.up-arrow {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: yellow;
+}
+
+.down-arrow {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: blue;
+}
+
+.left-arrow {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: green;
+}
+
+.right-arrow {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: orange;
+}
+
+.up-arrow, .down-arrow, .left-arrow, .right-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
