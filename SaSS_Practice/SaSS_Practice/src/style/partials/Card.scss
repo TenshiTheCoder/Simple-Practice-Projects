@@ -1,0 +1,45 @@
+@import '_mixins';
+@import '_variables';
+
+.card{
+  background-color: $background-color;
+  padding: $padding;
+  border-radius: 8px;
+  @include box-shadow(white, 10px);
+
+  .card-header{
+    h2{
+      color: $primary-color;
+      margin: 0;
+    }
+  }
+}
+
+  .card-body{
+    p{
+      font-size: 18px;
+      color: $text-color;
+    }
+  }
+
+  .card-footer{
+    p{
+      display:flex;
+      text-align: center;
+      justify-content: flex-end;
+    }
+  }
+
+  .card-button{
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    background-color: $primary-color;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover{
+      background-color: $background-color;
+    }
+  }

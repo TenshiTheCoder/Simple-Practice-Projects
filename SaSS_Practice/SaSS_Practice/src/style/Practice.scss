@@ -1,0 +1,25 @@
+$primary-color: blue;
+$secondary-color: red;
+$tertiary-color: green;
+$text-color: white;
+$background-color: pink;
+$default-font: Helvetica, Arial, sans-serif;
+
+body {
+  background-color: $background-color;
+  height: 100vh;
+}
+
+p {
+  color: $text-color;
+  font-style: bold;
+  font-family: $default-font;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+h2 {
+  color: $secondary-color;
+}
